@@ -1,0 +1,26 @@
+#counterLabel{
+    font-size: 10em;
+    text-align: center;
+    font-family:cursive;
+}
+
+#buttonHolder{
+    display:flex;
+    gap:2em;
+    justify-content: center;
+}
+
+.button{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: greenyellow;
+    border-radius: 20%;
+    font-family:cursive;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+    user-select: none;
+}
+
+.button:hover{
+    background-color: yellow;
+}
